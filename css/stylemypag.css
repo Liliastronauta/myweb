@@ -1,0 +1,322 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    background-color:#d6bcc7 ;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color:#f0cfdc ;
+}
+
+header nav{
+    display: flex;
+    /*Justificar hacia la derecha*/
+    justify-content: flex-end;
+
+}
+
+header nav .redes{
+    width: 250px;
+    height: auto;
+    display: flex;
+    /*Eliminar los puntos de la lista*/
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+header nav .redes img{
+    border-radius: 80px;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+main{
+    
+    width:100% ;
+    height: 350px;
+}
+main .inicio{
+    background-color:#f0cfdc;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .inicio .imagen1 img{
+    width: 300px;
+    margin-left: -300px;
+    margin-right: auto;
+
+    justify-content: left;
+}
+main .inicio .imagen2 img{
+    width: 300px;
+    margin-left: auto;
+    margin-right: -300px;
+    justify-content: right;
+}
+main .inicio .titulo{
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Yrsa', serif;
+    font-size: xx-large;
+    margin-right: 100px;
+    margin-left:100px ;
+    justify-content: center;
+}
+
+    
+main .menu{
+    /**background-color: aqua;**/
+    display: grid;
+    grid-template-columns: 200px 200px ;
+    grid-template-rows: 200px 200px;
+    column-gap: 70px;
+    row-gap:50px;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 15px;
+    font-family: 'Cormorant Infant', serif;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Yrsa', serif;
+    font-size: large;
+    background-color: #f0cfdc;
+    
+}
+
+
+main .menu .uno{
+    background-color: #b5ccf7;
+    border: 3px solid white;
+    display: flex;
+    box-sizing: border-box;
+    padding: 70px 50px 50px 50px;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main .menu .dos{
+    
+    background-color: #b5ccf7;
+    border: 3px solid white;
+    display: flex;
+    box-sizing: border-box;
+    padding: 80px 50px 50px 50px;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main .menu .tres{
+    background-color: #b5ccf7;
+    border: 3px solid white;
+    display: flex;
+    box-sizing: border-box;
+    padding: 80px 50px 50px 50px;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main .menu .cuatro{
+    background-color: #b5ccf7;
+    border: 3px solid white;
+    display: flex;
+    box-sizing: border-box;
+    padding: 80px 50px 50px 50px;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main .yo{
+    font-family: 'Cormorant Infant', serif;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Yrsa', serif;
+    text-align: center;
+    background-color: #f0cfdc;
+}
+
+main .yo .foto1{
+    width: 20%;
+
+}
+
+main .yo .foto2{
+    width: 20%;
+}
+
+main .pasatiempos{
+    font-family: 'Cormorant Infant', serif;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Yrsa', serif;
+    text-align: center;
+    background-color: #f0cfdc;
+    
+}
+
+main .pasatiempos .lista1{
+    list-style: none;
+    font-size: xx-large;
+    display: grid;
+    /**grid-template-columns: 200px ;
+    grid-template-rows: 150px 150px 150px 150px ;
+    column-gap: 50px;**/
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+
+}
+
+main .pasatiempos .lista1 .p{
+    background-color: rgb(201, 168, 231);
+    border: 2px solid white;
+    display: flex;
+    box-sizing: border-box;
+    padding: 25px 50px 50px 50px;
+    margin: 10px;
+    height: 100px;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+main .pasatiempos .lista1 .j{
+    background-color: rgb(201, 168, 231);
+    border: 2px solid white;
+    display: flex;
+    box-sizing: border-box;
+    padding: 25px 50px 50px 50px;
+    margin: 10px;
+    height: 100px;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+main .pasatiempos .lista1 .t{
+    background-color: rgb(201, 168, 231);
+    border: 2px solid white;
+    display: flex;
+    box-sizing: border-box;
+    padding: 25px 50px 50px 50px;
+    margin: 10px;
+    height: 100px;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+main .pasatiempos .lista1 .v{
+    background-color: rgb(201, 168, 231);
+    border: 2px solid white;
+    display: flex;
+    box-sizing: border-box;
+    padding: 25px 50px 50px 50px;
+    margin: 10px;
+    height: 100px;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main .kpop{
+    font-family: 'Cormorant Infant', serif;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Yrsa', serif;
+    text-align: center;
+    background-color: #f0cfdc;
+
+}
+
+main .kpop .bts .bt1{
+    width: 40%;
+    
+}
+main .kpop .bts .bt2{
+    width: 50%;
+    margin-left: 1%;
+}
+
+main .kpop .twice .twice1{
+    width: 40%;
+}
+
+main .kpop .twice .twice2{
+    width: 23%;
+    margin-left: 2%;
+}
+
+main .kpop .newj .nj1{
+    width: 43%;
+}
+
+main .kpop .newj .nj2{
+    width: 40%;
+}
+
+main .vlogs{
+    font-family: 'Cormorant Infant', serif;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Yrsa', serif;
+    text-align: center;
+    background-color: #f0cfdc;
+}
+
+main .vlogs .sailor{
+    width: 30%;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: -420%;
+    width: 100%;
+    background-color: #f0cfdc;
+    margin-top: auto;
+}
+
+
+
